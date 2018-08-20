@@ -39,7 +39,7 @@ TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 BOARD_ROOT_EXTRA_FOLDERS := dsp firmware persist
 
 # Sepolicy
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/minimal
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/tissot/BoardConfigVendor.mk
